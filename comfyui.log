@@ -1,0 +1,59 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-18 10:24:09.213] ** ComfyUI startup time: 2024-11-18 10:24:09.213722
+[2024-11-18 10:24:09.223] ** Platform: Windows
+[2024-11-18 10:24:09.224] ** Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2024-11-18 10:24:09.224] ** Python executable: D:\software\Ai\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-11-18 10:24:09.224] ** ComfyUI Path: D:\software\Ai\ComfyUI_windows_portable\ComfyUI
+[2024-11-18 10:24:09.225] ** Log path: D:\software\Ai\ComfyUI_windows_portable\comfyui.log
+[2024-11-18 10:24:09.235] 
+Prestartup times for custom nodes:
+[2024-11-18 10:24:09.235]    4.2 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 10:24:09.235] 
+Total VRAM 8192 MB, total RAM 32681 MB
+[2024-11-18 10:24:18.885] pytorch version: 2.5.1+cu124
+[2024-11-18 10:24:18.916] Set vram state to: NORMAL_VRAM
+[2024-11-18 10:24:18.916] Device: cuda:0 NVIDIA GeForce GTX 1070 Ti : cudaMallocAsync
+[2024-11-18 10:24:21.488] Using pytorch cross attention
+[2024-11-18 10:24:26.265] [Prompt Server] web root: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\web
+[2024-11-18 10:24:28.455] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\dual_transformer_2d.py:20: FutureWarning: `DualTransformer2DModel` is deprecated and will be removed in version 0.29. Importing `DualTransformer2DModel` from `diffusers.models.dual_transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.dual_transformer_2d import DualTransformer2DModel`, instead.
+  deprecate("DualTransformer2DModel", "0.29", deprecation_message)
+[2024-11-18 10:24:28.467] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:20: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 0.29. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "0.29", deprecation_message)
+[2024-11-18 10:24:28.467] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:25: FutureWarning: `Transformer2DModel` is deprecated and will be removed in version 0.29. Importing `Transformer2DModel` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModel`, instead.
+  deprecate("Transformer2DModel", "0.29", deprecation_message)
+[2024-11-18 10:24:28.525] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-18 10:24:29.929] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.8)
+[2024-11-18 10:24:30.087] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-18 10:24:30.087] [Impact Pack] Wildcards loading done.
+[2024-11-18 10:24:30.269] ### ComfyUI Revision: 2811 [8afb97cd] | Released on '2024-11-05'
+[2024-11-18 10:24:30.469] here: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox
+[2024-11-18 10:24:30.476] Using ckpts path: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox\..\..\models\annotator
+[2024-11-18 10:24:30.476] Using symlinks: False
+[2024-11-18 10:24:30.476] Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider']
+[2024-11-18 10:24:30.523] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-18 10:24:30.537] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-18 10:24:30.558] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-18 10:24:30.592] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-18 10:24:30.620] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-18 10:24:31.026] D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox\nodes\preprocessor\dwpose_node.py:28: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-11-18 10:24:31.033] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-11-18 10:24:31.033] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-11-18 10:24:31.033] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-11-18 10:24:31.897] 
+Import times for custom nodes:
+[2024-11-18 10:24:31.897]    0.0 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-11-18 10:24:31.897]    0.1 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-11-18 10:24:31.897]    0.1 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-11-18 10:24:31.897]    0.3 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-IDM-VTON
+[2024-11-18 10:24:31.897]    0.4 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 10:24:31.897]    0.6 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox
+[2024-11-18 10:24:31.897]    0.7 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_segment_anything
+[2024-11-18 10:24:31.898]    1.6 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-18 10:24:31.898] 
+[2024-11-18 10:24:31.905] Starting server
+
+[2024-11-18 10:24:31.905] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-18 10:24:33.100] FETCH DATA from: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-18 10:26:16.032] 
+Stopped server

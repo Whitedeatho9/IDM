@@ -1,0 +1,106 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-13 13:24:06.942] ** ComfyUI startup time: 2024-11-13 13:24:06.942216
+[2024-11-13 13:24:06.958] ** Platform: Windows
+[2024-11-13 13:24:06.958] ** Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2024-11-13 13:24:06.959] ** Python executable: D:\software\Ai\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-11-13 13:24:06.960] ** ComfyUI Path: D:\software\Ai\ComfyUI_windows_portable\ComfyUI
+[2024-11-13 13:24:06.961] ** Log path: D:\software\Ai\ComfyUI_windows_portable\comfyui.log
+[2024-11-13 13:24:06.976] 
+Prestartup times for custom nodes:
+[2024-11-13 13:24:06.976]    6.3 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-13 13:24:06.977] 
+Total VRAM 8192 MB, total RAM 32681 MB
+[2024-11-13 13:24:40.335] pytorch version: 2.5.1+cu124
+[2024-11-13 13:24:40.371] Set vram state to: NORMAL_VRAM
+[2024-11-13 13:24:40.371] Device: cuda:0 NVIDIA GeForce GTX 1070 Ti : cudaMallocAsync
+[2024-11-13 13:24:44.562] Using pytorch cross attention
+[2024-11-13 13:24:52.869] [Prompt Server] web root: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\web
+[2024-11-13 13:24:57.212] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\dual_transformer_2d.py:20: FutureWarning: `DualTransformer2DModel` is deprecated and will be removed in version 0.29. Importing `DualTransformer2DModel` from `diffusers.models.dual_transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.dual_transformer_2d import DualTransformer2DModel`, instead.
+  deprecate("DualTransformer2DModel", "0.29", deprecation_message)
+[2024-11-13 13:24:57.236] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:20: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 0.29. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "0.29", deprecation_message)
+[2024-11-13 13:24:57.237] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:25: FutureWarning: `Transformer2DModel` is deprecated and will be removed in version 0.29. Importing `Transformer2DModel` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModel`, instead.
+  deprecate("Transformer2DModel", "0.29", deprecation_message)
+[2024-11-13 13:24:57.376] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-13 13:25:00.549] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.8)
+[2024-11-13 13:25:00.821] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-13 13:25:00.826] [Impact Pack] Wildcards loading done.
+[2024-11-13 13:25:01.119] ### ComfyUI Revision: 2811 [8afb97cd] | Released on '2024-11-05'
+[2024-11-13 13:25:01.521] here: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox
+[2024-11-13 13:25:01.534] Using ckpts path: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox\..\..\models\annotator
+[2024-11-13 13:25:01.534] Using symlinks: False
+[2024-11-13 13:25:01.535] Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider']
+[2024-11-13 13:25:01.605] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-13 13:25:01.629] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-13 13:25:01.631] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-13 13:25:01.704] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-13 13:25:01.772] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-13 13:25:02.594] D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox\nodes\preprocessor\dwpose_node.py:28: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-11-13 13:25:02.613] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-11-13 13:25:02.613] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-11-13 13:25:02.613] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-11-13 13:25:04.371] 
+Import times for custom nodes:
+[2024-11-13 13:25:04.372]    0.0 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-11-13 13:25:04.372]    0.1 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-11-13 13:25:04.372]    0.3 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-11-13 13:25:04.372]    0.7 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-13 13:25:04.372]    0.9 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-IDM-VTON
+[2024-11-13 13:25:04.373]    1.1 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox
+[2024-11-13 13:25:04.373]    1.4 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_segment_anything
+[2024-11-13 13:25:04.374]    3.5 seconds: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-13 13:25:04.374] 
+[2024-11-13 13:25:04.394] Starting server
+
+[2024-11-13 13:25:04.394] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-13 13:25:06.473] FETCH DATA from: D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-13 13:28:21.803] got prompt
+[2024-11-13 13:28:22.961] model weight dtype torch.float16, manual cast: None
+[2024-11-13 13:28:23.004] model_type EPS
+[2024-11-13 13:31:35.971] Using pytorch attention in VAE
+[2024-11-13 13:31:35.974] Using pytorch attention in VAE
+[2024-11-13 13:31:37.333] Requested to load SDXLClipModel
+[2024-11-13 13:31:37.333] Loading 1 new model
+[2024-11-13 13:31:37.360] loaded completely 0.0 1560.802734375 True
+[2024-11-13 13:32:42.838] Requested to load SDXL
+[2024-11-13 13:32:42.838] Loading 1 new model
+[2024-11-13 13:32:45.816] loaded completely 0.0 4897.0483474731445 True
+[2024-11-13 13:33:00.414] 100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:14<00:00,  1.57it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:14<00:00,  1.39it/s]
+[2024-11-13 13:33:00.744] Requested to load AutoencoderKL
+[2024-11-13 13:33:00.744] Loading 1 new model
+[2024-11-13 13:33:02.179] loaded completely 0.0 319.11416244506836 True
+[2024-11-13 13:33:02.738] Prompt executed in 280.93 seconds
+[2024-11-13 14:44:25.450] got prompt
+[2024-11-13 14:44:25.461] Requested to load SDXLClipModel
+[2024-11-13 14:44:25.462] Loading 1 new model
+[2024-11-13 14:44:27.162] loaded completely 0.0 1560.802734375 True
+[2024-11-13 14:44:31.221] loaded completely 5098.975205230713 4897.0483474731445 True
+[2024-11-13 14:44:44.160] 100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.51it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.55it/s]
+[2024-11-13 14:44:44.505] Requested to load AutoencoderKL
+[2024-11-13 14:44:44.505] Loading 1 new model
+[2024-11-13 14:44:46.405] loaded completely 0.0 319.11416244506836 True
+[2024-11-13 14:44:46.907] Prompt executed in 21.46 seconds
+[2024-11-13 14:50:29.227] got prompt
+[2024-11-13 14:50:29.896] loaded completely 5385.675991821289 4897.0483474731445 True
+[2024-11-13 14:50:42.935] 100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.50it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.54it/s]
+[2024-11-13 14:50:44.760] Prompt executed in 15.53 seconds
+[2024-11-13 14:53:58.850] got prompt
+[2024-11-13 14:53:58.872] Requested to load SDXLClipModel
+[2024-11-13 14:53:58.873] Loading 1 new model
+[2024-11-13 14:53:59.918] loaded completely 0.0 1560.802734375 True
+[2024-11-13 14:54:01.553] loaded completely 5086.472763824463 4897.0483474731445 True
+[2024-11-13 14:54:13.999] 100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.57it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.61it/s]
+[2024-11-13 14:54:14.328] Requested to load AutoencoderKL
+[2024-11-13 14:54:14.329] Loading 1 new model
+[2024-11-13 14:54:15.916] loaded completely 0.0 319.11416244506836 True
+[2024-11-13 14:54:16.370] Prompt executed in 17.52 seconds
+[2024-11-13 15:17:04.571] got prompt
+[2024-11-13 15:17:04.733] model_path is D:\software\Ai\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-tbox\..\..\models\annotator\LayerNorm/DensePose-TorchScript-with-hint-image\densepose_r101_fpn_dl.torchscript
+[2024-11-13 15:17:17.094] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py:1747: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\TensorShape.cpp:3596.)
+  return forward_call(*args, **kwargs)
+[2024-11-13 15:17:28.501] The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+[2024-11-13 15:17:28.549] D:\software\Ai\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+[2024-11-13 15:20:29.112] 
+Stopped server
